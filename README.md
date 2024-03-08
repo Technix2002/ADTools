@@ -3,8 +3,11 @@ PowerShell on premise Active Directory Tools (cmdlets)
 
   # Installation
 Get entire ADTools folder (extract if compressed) from GitHub
+
 dir -Path "c:\Directory-where-ADTools-is" -Recurse | Unblock-File
+
 Copy that directory and all it's contents to C:\Windows\System32\WindowsPowerShell\v1.0\Modules
+
 
   # Function Find-AD
 <#
